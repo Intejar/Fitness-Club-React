@@ -16,4 +16,7 @@
 }
 .time-container p:hover{
     cursor: pointer;
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
 }

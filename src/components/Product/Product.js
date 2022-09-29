@@ -7,10 +7,10 @@ const Product = (props) => {
             <div className='product'>
                 <img src={img} alt="" ></img>
                 <div className="product-info">
-                    <p>Name:{name}</p>
+                    <p><span>Name:</span> {name}</p>
                     <p>{info}</p>
-                    <p>For Age: {age}</p>
-                    <p>Time required: {time}</p>
+                    <p><span>For Age:</span> {age}</p>
+                    <p><span>Time required:</span> {time}</p>
                 </div>
                 <button onClick={() => props.handleAddToCart(props.product)}>Add to list</button>
             </div>

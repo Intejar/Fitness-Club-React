@@ -4,21 +4,30 @@
 } */
 .profile{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
+    margin: 15px 0;
 }
+.name p{
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: 700;
+}
+
 .profile img{
     height: 50px;
     width: 50px;
-    border: 1px solid white;
     border-radius: 50px;
 }
 .measurements{
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid grey;
+    border: 1px solid black;
     border-radius: 10px;
     background-color: lightgrey;
     margin-bottom: 10px;
+    font-weight: 500;
+}
+.body{
+    font-size: larger;
+    font-weight: 600;
 }

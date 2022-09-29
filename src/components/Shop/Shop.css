@@ -10,23 +10,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: orange;
 
     
 }
 button{
     width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: wheat;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
 
+}
+button:hover{
+    background-color: rgb(236, 177, 65);
+    color: black;
+    font-size: medium;
+    font-weight: 700;
 }
 .child{
     position: sticky;
     top: 0;
 }
 .main{
-    background-color: rgb(238, 232, 232);
+    background-color: black;
 
 }
 .main h2{
     margin-left: 30px;
+    color: orange;
 }
 .shop-container{
     display: grid;
@@ -39,8 +53,9 @@ button{
 
 }
 .cart-container{
-    padding: 0 10px;
-    margin-top: 20px;
+    padding: 10px 10px 0 10px;
+    background-color: orange;
+
     
 }
 @media only screen and (max-width: 600px) {

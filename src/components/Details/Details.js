@@ -16,11 +16,11 @@ const Details = (props) => {
             <div>
                 <div className='display-details'>
                     <p>Excercise time</p>
-                    <p><span>{total}</span>sec</p>
+                    <p><span className='total'>{total}</span> <small>sec</small></p>
                 </div>
                 <div className='display-details'>
                     <p>Break time</p>
-                    <p><span id='time-display'>{localStorage.getItem('break')}</span>sec</p>
+                    <p><span id='time-display'>{localStorage.getItem('break')}</span> <small>sec</small></p>
                 </div>
                 <div>
                     <button onClick={notify}>Activity Completed</button>
