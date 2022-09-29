@@ -7,3 +7,6 @@
     grid-template-columns: repeat(3,1fr);
     padding: 20px 30px;
 }
+.cart-container{
+    padding: 0 10px;
+}

@@ -1,0 +1,15 @@
+import React from 'react';
+import './Break.css'
+const Break = () => {
+    return (
+        <div className='time-container'>
+            <p><span>10</span>s</p>
+            <p><span>20</span>s</p>
+            <p><span>30</span>s</p>
+            <p><span>40</span>s</p>
+            <p><span>50</span>s</p>
+        </div>
+    );
+};
+
+export default Break;
