@@ -8,7 +8,7 @@ const Product = (props) => {
                 <img src={img} alt="" ></img>
                 <div className="product-info">
                     <p><span>Name:</span> {name}</p>
-                    <p>{info}</p>
+                    <p className='info'>{info}</p>
                     <p><span>For Age:</span> {age}</p>
                     <p><span>Time required:</span> {time}</p>
                 </div>

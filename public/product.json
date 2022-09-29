@@ -10,7 +10,7 @@
     {
         "name": "Pull Up Bar",
         "id":"2",
-        "info": "Dumble is use for hand muscle",
+        "info": "it is use for growth and hand strength",
         "age": "15-50",
         "time":20,
         "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/athlete-doing-push-ups-in-gym-royalty-free-image-1614093074.?crop=0.949xw:0.711xh;0,0&resize=640:*"
@@ -18,32 +18,32 @@
     {
         "name": "Trade Mil",
         "id":"3",
-        "info": "Dumble is use for hand muscle",
-        "age": "15-50",
+        "info": "Trade Mil use for stamina",
+        "age": "15-40",
         "time":10,
         "img":"https://i.insider.com/616ee28ac6a5c10018895cb6?width=1000&format=jpeg&auto=webp"
     },
     {
         "name": "Leg weight machine",
         "id":"4",
-        "info": "Dumble is use for hand muscle",
-        "age": "15-50",
+        "info": "Mainly use for leg muscle",
+        "age": "18-28",
         "time":5,
         "img":"https://www.panattasport.com/resources/home/panatta-fw-special-2021.jpg"
     },
     {
         "name": "Lower abdomen machine",
         "id":"5",
-        "info": "Dumble is use for hand muscle",
-        "age": "15-50",
+        "info": "Burn fat of lower belly",
+        "age": "15-35",
         "time":10,
         "img":"https://us.123rf.com/450wm/puhhha/puhhha1809/puhhha180900966/108464175-functional-training-man-doing-exercise-on-rowing-machine-at-gym-sport-male-athlete-workout-high-reso.jpg?ver=6"
     },
     {
         "name": "chest machine",
         "id":"6",
-        "info": "Dumble is use for hand muscle",
-        "age": "15-50",
+        "info": "Booste your chest Muscle",
+        "age": "15-30",
         "time":10,
         "img":"https://media.istockphoto.com/photos/man-doing-strength-workout-exercise-in-gym-with-face-mask-picture-id1267511601?b=1&k=20&m=1267511601&s=170667a&w=0&h=n_4FKDHMLZW5KcI6hYqR_IUd5JY1ty_B1Xi0Dozicqg="
     }
