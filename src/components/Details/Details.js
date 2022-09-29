@@ -1,7 +1,10 @@
 import React from 'react';
-import Cart from '../Cart/Cart';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Details.css'
+// toast.configure()
 const Details = (props) => {
+    const notify = () => toast("Congratulations You have successfully fisnished your workout!");
     const { cart } = props;
     let total = 0;
     for (const product of cart) {
@@ -20,7 +23,18 @@ const Details = (props) => {
                     <p><span id='time-display'>{localStorage.getItem('break')}</span>sec</p>
                 </div>
                 <div>
-                    <button>Activity Completed</button>
+                    <button onClick={notify}>Activity Completed</button>
+                    <ToastContainer
+                        position="top-center"
+                        autoClose={5000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                    />
                 </div>
             </div>
         </div>

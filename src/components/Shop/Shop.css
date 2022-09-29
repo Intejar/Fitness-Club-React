@@ -15,7 +15,11 @@
 }
 button{
     width: 100%;
-    
+
+}
+.child{
+    position: sticky;
+    top: 0;
 }
 .main{
     background-color: rgb(238, 232, 232);

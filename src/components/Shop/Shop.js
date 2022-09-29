@@ -5,8 +5,8 @@ import Details from '../Details/Details';
 import Product from '../Product/Product';
 import './Shop.css'
 const Shop = () => {
-    const [products, setProducts] = useState([]);
-    const [cart, setCart] = useState([]);
+    let [products, setProducts] = useState([]);
+    let [cart, setCart] = useState([]);
     useEffect(() => {
         fetch('product.json')
             .then(res => res.json())
@@ -35,9 +35,11 @@ const Shop = () => {
                 </div>
             </div>
             <div className="cart-container">
-                <Cart></Cart>
-                <Break></Break>
-                <Details cart={cart} ></Details>
+                <div className='child'>
+                    <Cart></Cart>
+                    <Break></Break>
+                    <Details cart={cart} ></Details>
+                </div>
             </div>
         </div>
     );
