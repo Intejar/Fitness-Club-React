@@ -9,4 +9,6 @@
 }
 .cart-container{
     padding: 0 10px;
+    position: sticky;
+    top: 0;
 }
