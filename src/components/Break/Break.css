@@ -5,6 +5,7 @@
     border-radius: 10px;
     background-color: lightgray;
     padding: 10px;
+    
 }
 .time-container p{
     color: white;
@@ -12,4 +13,7 @@
     border: 1px solid blue;
     padding: 5px;
     border-radius: 50px;
+}
+.time-container p:hover{
+    cursor: pointer;
 }

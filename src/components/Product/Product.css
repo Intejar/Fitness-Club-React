@@ -1,3 +1,6 @@
+/* #product-container{
+    padding: 20px;
+} */
 .product img{
     height: 286px;
     width: 286px;
@@ -9,7 +12,13 @@
     border: 1px solid #95A0A7;
     border-radius: 8px;
     margin-bottom: 20px;
+    background-color: rgba(136, 132, 132, 0.993);
 }
 .product-info{
     margin: 0 14px;
+}
+.product button{
+    width: 100%;
+    padding: 5px;
+    
 }

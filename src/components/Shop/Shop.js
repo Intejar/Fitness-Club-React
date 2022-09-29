@@ -25,8 +25,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <p>{cart.length}</p>
-                <Cart cart={cart}></Cart>
+                <Cart></Cart>
                 <Break></Break>
                 <Details cart={cart} ></Details>
             </div>
