@@ -1,7 +1,7 @@
 .time-container{
     display: flex;
     justify-content: space-between;
-    border: 1px solid grey;
+    border: 1px solid black;
     border-radius: 10px;
     background-color: lightgray;
     padding: 10px;
@@ -10,7 +10,7 @@
 .time-container p{
     color: black;
     background-color: rgb(226, 219, 219);
-    border: 1px solid rgb(87, 85, 85);
+    border: 1px solid black;
     padding: 5px;
     border-radius: 50px;
 }
